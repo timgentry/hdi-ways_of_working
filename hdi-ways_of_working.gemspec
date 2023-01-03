@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.version     = Hdi::WaysOfWorking::VERSION
   spec.authors     = ["Tim Gentry"]
   spec.email       = ["52189+timgentry@users.noreply.github.com"]
-  spec.homepage    = "https://github.com/HealthDataInsight/ways-of-working"
+  spec.homepage    = "https://github.com/HealthDataInsight/hdi-ways_of_working"
   spec.summary     = "Ruby on Rails plugin for HDI Ways of working."
   # spec.description = "TODO: Description of Hdi::WaysOfWorking."
   spec.license     = "MIT"

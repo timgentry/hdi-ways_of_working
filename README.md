@@ -37,7 +37,7 @@ $ gem install hdi-ways_of_working
 
 ### Contributing
 
-1. Fork it ( https://github.com/HealthDataInsight/ways-of-working/fork )
+1. Fork it ( https://github.com/HealthDataInsight/hdi-ways_of_working/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
