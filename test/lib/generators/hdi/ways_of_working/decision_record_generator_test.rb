@@ -1,8 +1,8 @@
 require "test_helper"
-require "generators/decision_record/decision_record_generator"
+require "generators/hdi/ways_of_working/decision_record/decision_record_generator"
 
-class DecisionRecordGeneratorTest < Rails::Generators::TestCase
-  tests DecisionRecordGenerator
+class Hdi::WaysOfWorking::DecisionRecordGeneratorTest < Rails::Generators::TestCase
+  tests Hdi::WaysOfWorking::DecisionRecordGenerator
   destination Rails.root.join("tmp/generators")
   setup :prepare_destination
 

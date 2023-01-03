@@ -1,4 +1,4 @@
-class DecisionRecordGenerator < Rails::Generators::Base
+class Hdi::WaysOfWorking::DecisionRecordGenerator < Rails::Generators::Base
   source_root File.expand_path("templates", __dir__)
 
   def create_architecture_decision_record_files
