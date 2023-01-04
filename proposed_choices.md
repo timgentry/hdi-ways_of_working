@@ -11,7 +11,7 @@
 - Ruby Code Analysis:
   - [ ] Linting: Rubocop (to NDR Style)
   - [ ] Static Code Analysis: brakeman
-  - [ ] Dependency checks: bundle audit
+  - [ ] Dependency checks: bundle audit/dependabot
 - Terraform Code Analysis:
   - [ ] Linting: 
   - [ ] Static Code Analysis: 
