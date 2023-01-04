@@ -8,4 +8,23 @@
 - [ ] Test inconsiderate writing with https://alexjs.com
 - [ ] End to end testing https://www.cypress.io/
 - [x] Code of Conduct: https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md
-- [ ] NdrDevSupport: NDR Rubocop code style.
+- Ruby Code Analysis:
+  - [ ] Linting: Rubocop (to NDR Style)
+  - [ ] Static Code Analysis: brakeman
+  - [ ] Dependency checks: bundle audit
+- Terraform Code Analysis:
+  - [ ] Linting: 
+  - [ ] Static Code Analysis: 
+  - [ ] Dependency checks: 
+- JavaScript/Typescipt:
+  - [ ] Linting: 
+  - [ ] Static Code Analysis: 
+  - [ ] Dependency checks: 
+- SASS:
+  - [ ] Linting: 
+  - [ ] Static Code Analysis: 
+  - [ ] Dependency checks: 
+- Markdown:
+  - [ ] Linting: 
+  - [ ] Static Code Analysis: 
+  - [ ] Dependency checks: 
