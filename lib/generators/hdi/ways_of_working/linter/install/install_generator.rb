@@ -35,12 +35,6 @@ module Hdi
           append_to_file '.gitignore', ".rubocop-https---raw-githubusercontent-com-NHSDigital-ndr-dev-support-v6-1-9-config-rubocop-ndr-yml\n"
         end
 
-        # TODO: add hdi/ways_of_working/tasks to Rakefile
-        # inject_into_file 'Rakefile', after: "require_relative "config/application"\n" do <<-'RUBY'
-        #   require 'hdi/ways_of_working/tasks' if Rails.env.development? || Rails.env.test?
-        # RUBY
-        # end
-
         private
 
         def create_file_if_missing(path)

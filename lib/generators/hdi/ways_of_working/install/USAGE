@@ -1,0 +1,8 @@
+Description:
+    Installs HDI ways of working into this project
+
+Example:
+    bin/rails generate hdi:ways_of_working:install
+
+    This will create:
+        what/will/it/create
