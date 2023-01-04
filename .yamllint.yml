@@ -1,4 +1,15 @@
 ---
 extends: default
-# ignore: |
-#   **/megalinter-reports/**
+ignore: |
+  **/megalinter-reports/**/*
+  test/dummy/**/*
+rules:
+  comments-indentation:
+    ignore: |
+      *mega-linter.yml
+  comments:
+    ignore: |
+      *mega-linter.yml
+  line-length:
+    ignore: |
+      *mega-linter.yml
