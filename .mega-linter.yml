@@ -3,15 +3,99 @@
 # See all available variables at https://megalinter.io/configuration/ and in linters documentation
 
 APPLY_FIXES: none # all, none, or list of linter keys
-# ENABLE: # If you use ENABLE variable, all other languages/formats/tooling-formats will be disabled by default
-# ENABLE_LINTERS: # If you use ENABLE_LINTERS variable, all other linters will be disabled by default
-DISABLE:
-  - COPYPASTE # Uncomment to disable checks of excessive copy-pastes
-  - SPELL # Uncomment to disable checks of spelling mistakes
-DISABLE_LINTERS:
-  - REPOSITORY_GIT_DIFF
-  - RUBY_RUBOCOP
+ENABLE_LINTERS: # If you use ENABLE_LINTERS variable, all other linters will be disabled by default
+  - ACTION_ACTIONLINT # in Super-Linter
+  - ANSIBLE_ANSIBLE_LINT # in Super-Linter
+  - ARM_ARM_TTK # in Super-Linter
+  - BASH_EXEC # in Super-Linter
+  - BASH_SHELLCHECK # in Super-Linter
+  - BASH_SHFMT # in Super-Linter
+  - CLOJURE_CLJ_KONDO # in Super-Linter
+  - CLOUDFORMATION_CFN_LINT # in Super-Linter
+  - COFFEE_COFFEELINT # in Super-Linter
+  - COPYPASTE_JSCPD # in Super-Linter
+  - CPP_CPPLINT # in Super-Linter
+  - CSHARP_DOTNET_FORMAT # in Super-Linter
+  - CSS_STYLELINT # in Super-Linter
+  - DART_DARTANALYZER # in Super-Linter
+  - DOCKERFILE_HADOLINT # in Super-Linter
+  - EDITORCONFIG_EDITORCONFIG_CHECKER # in Super-Linter
+  - ENV_DOTENV_LINTER # in Super-Linter
+  - GHERKIN_GHERKIN_LINT # in Super-Linter
+  - GO_GOLANGCI_LINT # in Super-Linter
+  - GROOVY_NPM_GROOVY_LINT # in Super-Linter
+  - HTML_HTMLHINT # in Super-Linter
+  - JAVA_CHECKSTYLE # in Super-Linter
+  - JAVASCRIPT_ES # in Super-Linter
+  - JAVASCRIPT_STANDARD # in Super-Linter
+  - JSON_ESLINT_PLUGIN_JSONC # in Super-Linter
+  - KOTLIN_KTLINT # in Super-Linter
+  - KUBERNETES_KUBEVAL # in Super-Linter
+  - LATEX_CHKTEX # in Super-Linter
+  - LUA_LUACHECK # in Super-Linter
+  - MARKDOWN_MARKDOWNLINT # in Super-Linter
+  - OPENAPI_SPECTRAL # in Super-Linter
+  - PERL_PERLCRITIC # in Super-Linter
+  - PHP_PHPCS # in Super-Linter
+  - PHP_PHPLINT # in Super-Linter
+  - PHP_PHPSTAN # in Super-Linter
+  - PHP_PSALM # in Super-Linter
+  - PROTOBUF_PROTOLINT # in Super-Linter
+  - PYTHON_BLACK # in Super-Linter
+  - PYTHON_FLAKE8 # in Super-Linter
+  - PYTHON_ISORT # in Super-Linter
+  - PYTHON_PYLINT # in Super-Linter
+  - R_LINTR # in Super-Linter
+  - RAKU_RAKU # in Super-Linter
+  - REPOSITORY_GITLEAKS # in Super-Linter
+  - RUST_CLIPPY # in Super-Linter
+  - SNAKEMAKE_LINT # in Super-Linter
+  - SNAKEMAKE_SNAKEFMT # in Super-Linter
+  - SQL_SQL_LINT # in Super-Linter
+  - SQL_SQLFLUFF # in Super-Linter
+  - TEKTON_TEKTON_LINT # in Super-Linter
+  - TERRAFORM_CHECKOV
+  - TERRAFORM_TERRAFORM_FMT # in Super-Linter
+  - TERRAFORM_TERRAGRUNT # in Super-Linter
+  - TERRAFORM_TERRASCAN # in Super-Linter
+  - TERRAFORM_TFLINT # in Super-Linter
+  - TYPESCRIPT_ES # in Super-Linter
+  - TYPESCRIPT_STANDARD # in Super-Linter
+  - XML_XMLLINT # in Super-Linter
+  - YAML_YAMLLINT # in Super-Linter
+  # C#	clang-format # in Super-Linter
+  # C++	clang-format # in Super-Linter
+  # Java	google-java-format # in Super-Linter
+  # JSON	eslint-plugin-json # in Super-Linter
+  # Natural language	textlint # in Super-Linter
+  # PowerShell	PSScriptAnalyzer # in Super-Linter
+  # Ruby	RuboCop # in Super-Linter
+  # Rust	Rustfmt # in Super-Linter
+  # Scala	scalafmt # in Super-Linter
 SHOW_ELAPSED_TIME: false
 FILEIO_REPORTER: false
 FAIL_IF_MISSING_LINTER_IN_FLAVOR: true
 # DISABLE_ERRORS: true # Uncomment if you want MegaLinter to detect errors but not block CI to pass
+
+
+
+NHSD languages:
+# C#
+# CSS
+# Dart
+# FreeMarker
+# Go
+# HTML
+# Java
+# JavaScript
+# Kotlin
+# Makefile
+# Nunjucks
+# PLSQL
+# Python
+# Rich Text Format
+# Ruby
+# Rust
+# Shell
+# TypeScript
+# XSLT
