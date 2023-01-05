@@ -15,10 +15,6 @@ module Hdi
           copy_file '.mega-linter.yml'
         end
 
-        def copy_yamllint_dot_file
-          copy_file '.yamllint.yml'
-        end
-
         def create_gitignore_if_missing
           create_file_if_missing '.gitignore'
         end

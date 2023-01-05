@@ -17,7 +17,6 @@ class Hdi::WaysOfWorking::Linter::InstallGeneratorTest < Rails::Generators::Test
 
     assert_file '.github/workflows/mega-linter.yml'
     assert_file '.mega-linter.yml'
-    assert_file '.yamllint.yml'
 
     assert_file '.gitignore' do |content|
       assert_match("megalinter-reports/\n", content)
@@ -28,7 +27,6 @@ class Hdi::WaysOfWorking::Linter::InstallGeneratorTest < Rails::Generators::Test
 
     assert_no_file '.github/workflows/mega-linter.yml'
     assert_no_file '.mega-linter.yml'
-    assert_no_file '.yamllint.yml'
 
     assert_file '.gitignore' do |content|
       refute_match("megalinter-reports/\n", content)

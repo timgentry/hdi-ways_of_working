@@ -7,5 +7,3 @@ Example:
     This will create:
         .github/workflows/mega-linter.yml
         .mega-linter.yml
-        .prettierignore
-        .yamllint.yml
