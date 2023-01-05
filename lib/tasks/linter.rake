@@ -3,7 +3,7 @@ namespace :hdi do
     namespace :linter do
       desc "Runs the MegaLinter runner"
       task :run do
-        system('npx mega-linter-runner --flavor cupcake')
+        system('time npx mega-linter-runner --flavor cupcake --remove-container')
       end
     end
   end
