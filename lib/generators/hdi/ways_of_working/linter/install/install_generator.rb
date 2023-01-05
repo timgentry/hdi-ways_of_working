@@ -15,10 +15,6 @@ module Hdi
           copy_file '.mega-linter.yml'
         end
 
-        def copy_prettierignore_dot_file
-          copy_file '.prettierignore'
-        end
-
         def copy_yamllint_dot_file
           copy_file '.yamllint.yml'
         end
