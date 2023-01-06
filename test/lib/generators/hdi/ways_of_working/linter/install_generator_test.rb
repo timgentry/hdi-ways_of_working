@@ -15,6 +15,7 @@ class Hdi::WaysOfWorking::Linter::InstallGeneratorTest < Rails::Generators::Test
   test 'files are created and revoked' do
     run_generator
 
+    assert_file '.github/linters/.keep'
     assert_file '.github/workflows/mega-linter.yml'
     assert_file '.mega-linter.yml'
 
@@ -25,6 +26,7 @@ class Hdi::WaysOfWorking::Linter::InstallGeneratorTest < Rails::Generators::Test
 
     run_generator [], behavior: :revoke
 
+    assert_no_file '.github/linters/.keep'
     assert_no_file '.github/workflows/mega-linter.yml'
     assert_no_file '.mega-linter.yml'
 

@@ -7,6 +7,10 @@ module Hdi
 
         # TODO: copy_rubocop_github_workflow_action
 
+        def copy_github_linters_dot_keep_file
+          copy_file '.github/linters/.keep'
+        end
+
         def copy_megalinter_github_workflow_action
           copy_file '.github/workflows/mega-linter.yml'
         end
